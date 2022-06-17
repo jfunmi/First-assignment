@@ -1,0 +1,35 @@
+h1{
+    border: solid 1px black;
+    color: rgba(189, 6, 6, 0.548);
+    // margin-bottom: 0;
+}
+table{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    th, td{
+        border: 1px solid black;
+        padding: .25em .5em;
+        text-align: left;
+        &:nth-child(2){
+            text-align: right;
+        }
+    }
+    td{
+        background-color: #eee;
+    }
+    th{
+        background-color: #009;
+        color: #fff;
+    }
+}
+.zigzag{
+    border-collapse: separate;
+    border-spacing: .25em .1em;
+    tbody tr:nth-child(odd) {
+        transform: rotate(2deg);
+    }
+    thead tr{
+      tbody tr:nth-child(even) {
+          transform: rotate(-2deg);
+      }  
+    }
+}

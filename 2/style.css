@@ -1,0 +1,41 @@
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    border: 1px solid black;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    border: 1px solid black ;
+    font-size: 26px;
+    margin: 20px 0;
+}
+.responsive-table li{
+    border: black solid 1px;
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.table-header{
+    background-color: red;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.table-row{
+    background-color: #f70707;
+
+}
+.col-1{
+    flex-basis: 10%;
+}
+
+.col-2{
+    flex-basis: 40%;
+}
+.col-3{
+    flex-basis: 25%;
+}
